@@ -1,0 +1,105 @@
+Excercise 1 week 2 phase 0
+
+● 1. Newton Second Law ●
+
+ALGORITMA
+
+a = percepatan benda (m/s2) ≠ m = massa benda (kg)
+
+ΣF = ?
+   = m x a
+   = 600kg x 2 m/s2
+
+1. Start
+2. Nilai 600 dimasukkan di variabel "m"
+3. Nilai 2 dimasukkan di variabel "a"
+4. Nilai dari variabel "m" dan variabel "a" dilakukan perkalian
+5. Nilai dari hasil perkalian dimasukkan ke variabel "ΣF"
+6. Nilai variabel "ΣF" ditampilkan
+7. Done 
+
+PSEUDOCODE
+
+STORE "m" with value of 600
+STORE "a" with value of 2
+STORE "ΣF" without any value
+CALCULATE "m" times "a"
+SET "ΣF" value with calculation result
+DISPLAY "ΣF"
+
+● 2. Tahun Kabisat ●
+
+ALGORITMA
+
+1. Start
+2. Nilai 0 dimasukan di Variabel "Tahun"
+3. Jika Tahun habis di bagi 4 dan Tahun tidak habis di bagi 100 maka lanjut ke step 4, bila tidak lanjut ke step 5
+4. Tampilkan tahun kabisat. Done.
+5. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400.
+6. Tampilkan tahun kabisat
+7. Done
+
+PSEUDOCODE
+
+IF "Tahun : 4 = 0"
+DO "Kabisat"
+DISPLAY "Tahun Kabisat"
+
+● 3. Laundry Day ●
+
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. 
+Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+ALGORITMA
+
+1. Start
+2. Foxie ingin mencuci Pakaian
+3. Mesin cuci akan dinyalakan apabila pakaian mencapai 20
+4. Foxie Memasukkan pakaian yang ingin dicuci satu persatu
+5. Jika telah Memasukkan pakaian hingga 20, maka lanjut step 6
+6. Nyalakan Mesin cuci
+8. Done
+
+PSEUDOCODE
+
+STORE "pakaian" with value of 0
+STORE "memasukkan" with value of 1
+STORE "cuciPakaian" with value of 0
+WHILE "cuciPakaian" less than 20, THEN 
+    ADD "cuciPakaian" with value of 1
+END WHILE
+DISPLAY "Nyalakan Mesin Cuci"
+
+● 4. Periksa Kuku ●
+
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang 
+memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+ALGORITMA
+
+1. Start
+2. Siswa-siswi 40 orang dan Guru 1 orang
+3. Pemeriksaan setiap kuku siswa-siswi, Jika panjang lanjut step 4, Jika pendek lanjut step 5
+4. Guru menghukum siswa-siswi jika ada siswa yang belum diperiksa, maka lanjut step 3, bila tidak lanjut step 6
+5. Guru memuji siswa-siswi jika ada siswa yang belum diperiksa, maka lanjut step 3, bila tidak lanjut step 6
+6. Done
+
+PSEUDOCODE
+
+STORE "siswaSiswi" with value of 40
+STORE "guru" with value of 1
+STORE "periksaKuku" with value of 0
+WHILE "periksaKuku" less than 40, THEN
+    ADD "periksaKuku" with value of 1
+    SET "kukuPanjang" with random boolean value between true or false
+    IF "kukuPanjang" EQUALS TO true THEN
+        DISPLAY Hukum "siswa-siswi"
+    ELSE THEN
+        DISPLAY Puji "siswa-siswi"
+    END IF
+END WHILE
+DISPLAY "Semua Sudah Diperiksa"
