@@ -11,7 +11,7 @@ console.log(shoutOut()) // Menampilkan "Halo Function!" di console
 function calculateMultiply() {
     var num1 = 5;
     var num2 = 6;
-    return num1 * num2
+    return num1 * num2;
 }
 console.log(calculateMultiply())
 
