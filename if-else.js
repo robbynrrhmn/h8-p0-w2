@@ -1,5 +1,5 @@
-var nama = '';
-var peran = '';
+var nama = 'robby';
+var peran = 'pahlawan';
 if (!nama) {
     console.log('Nama harus diisi!');
 } else if (!peran) {
@@ -13,4 +13,7 @@ if (!nama) {
 } else if (peran === 'Penyihir') {
     console.log('Selamat datang di Dunia Proxytia, ' + nama);
     console.log('Halo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!')
+} else {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama);
+    console.log('Peran tidak ditemukan, silahkan pilih peran Ksatria, Tabib atau Penyihir!')
 }

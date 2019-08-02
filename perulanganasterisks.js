@@ -19,12 +19,29 @@ console.log(cols2)
 
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
+// var rows3 = 5;
+// var cols3 = '';
+// for (var j = 0; j <= rows3; j++) {
+//     for (var h = 0; h < j; h++) {
+//         cols3 += '*'
+//     }
+//     cols3 += '\n'
+// }
+// console.log(cols3);
+
+
 var rows3 = 5;
-var cols3 = '';
-for (var j = 0; j <= rows3; j++) {
-    for (var h = 0; h < j; h++) {
-        cols3 += '*'
+
+var initial = 1;
+var i = 0;
+
+while (i < rows3) {
+    var pyramid = '*';
+    var j = 0;
+    while (j < i) {
+        pyramid = pyramid + '*';
+        j++;
     }
-    cols3 += '\n'
+    console.log(pyramid);
+    i++;
 }
-console.log(cols3)
